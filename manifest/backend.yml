@@ -1,0 +1,16 @@
+name: My pet app
+entities:
+  😃 Owner:
+    properties:
+      - name
+      - testDocker
+      - { name: email, type: email }
+      - { name: avatar, type: image }
+
+  😺 Cat:
+    properties:
+      - name
+      - { name: age, type: number }
+      - { name: birthdate, type: date }
+    belongsTo:
+      - Owner
