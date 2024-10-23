@@ -4,6 +4,7 @@ entities:
     properties:
       - name
       - testDocker
+      - newProp
       - { name: email, type: email }
       - { name: avatar, type: image }
 
