@@ -1,7 +1,7 @@
 {
-  "name": "my-manifest-project",
+  "name": "manifest-starter-image",
   "version": "0.1.0",
-  "description": "A project made with Manifest",
+  "description": "Manifest starter image",
   "scripts": {
     "start": "node node_modules/manifest/dist/manifest/src/main.js",
     "manifest": "node node_modules/manifest/scripts/watch/watch.js",
