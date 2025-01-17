@@ -1,11 +1,11 @@
 # Use the official Node.js image as a base
-FROM node:18
+FROM node:18-slim
 
 # Copy package.json and package-lock.json (if available)
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install && npm cache clean --force && rm -rf /root/.npm && rm -rf /tmp/*
 
 # Copy the rest of your application code
 COPY . .
