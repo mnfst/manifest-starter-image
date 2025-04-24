@@ -1,5 +1,36 @@
 {
   "yaml.schemas": {
     "https://schema.manifest.build/schema.json": "**/manifest/**/*.yml"
+  },
+  // Docker-style theme.
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#0db7ed",
+    "activityBar.background": "#0db7ed",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#ffffff99",
+    "activityBarBadge.background": "#384d54",
+    "activityBarBadge.foreground": "#ffffff",
+    "commandCenter.border": "#ffffff99",
+    "sash.hoverBorder": "#0db7ed",
+    "statusBar.background": "#384d54",
+    "statusBar.foreground": "#ffffff",
+    "statusBarItem.hoverBackground": "#4e6974",
+    "statusBarItem.remoteBackground": "#384d54",
+    "statusBarItem.remoteForeground": "#ffffff",
+    "titleBar.activeBackground": "#0db7ed",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#0db7ed99",
+    "titleBar.inactiveForeground": "#ffffff99",
+    "editor.background": "#f7fafc",
+    "editor.foreground": "#384d54",
+    "sideBar.background": "#f0f4f7",
+    "sideBar.foreground": "#384d54",
+    "panel.background": "#f0f4f7",
+    "terminal.background": "#f7fafc",
+    "terminal.foreground": "#384d54",
+    "tab.activeBackground": "#0db7ed22",
+    "tab.activeForeground": "#384d54",
+    "tab.inactiveBackground": "#f0f4f7",
+    "tab.inactiveForeground": "#384d5499"
   }
 }
