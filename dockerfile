@@ -12,6 +12,7 @@ COPY . .
 
 # Set the NODE_ENV environment variable
 ENV NODE_ENV=production
+ENV OPEN_API_DOCS=true
 
 # Expose the port the app runs on (adjust as needed)
 EXPOSE 1111
