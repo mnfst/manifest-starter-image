@@ -20,17 +20,6 @@
     "titleBar.activeBackground": "#0db7ed",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#0db7ed99",
-    "titleBar.inactiveForeground": "#ffffff99",
-    "editor.background": "#f7fafc",
-    "editor.foreground": "#384d54",
-    "sideBar.background": "#f0f4f7",
-    "sideBar.foreground": "#384d54",
-    "panel.background": "#f0f4f7",
-    "terminal.background": "#f7fafc",
-    "terminal.foreground": "#384d54",
-    "tab.activeBackground": "#0db7ed22",
-    "tab.activeForeground": "#384d54",
-    "tab.inactiveBackground": "#f0f4f7",
-    "tab.inactiveForeground": "#384d5499"
+    "titleBar.inactiveForeground": "#ffffff99"
   }
 }
