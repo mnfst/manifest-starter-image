@@ -9,6 +9,6 @@
     "seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
   },
   "dependencies": {
-    "manifest": "4.18.0-alpha.3"
+    "manifest": "4.18.0-alpha.4"
   }
 }
