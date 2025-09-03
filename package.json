@@ -1,13 +1,14 @@
 {
   "name": "manifest-starter-image",
   "version": "0.1.0",
-  "description": "Manifest starter image",
+  "description": "A backend made with Manifest: https://manifest.build",
+  "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "start": "node node_modules/manifest/dist/manifest/src/main.js",
-    "manifest": "node node_modules/manifest/scripts/watch/watch.js",
-    "manifest:seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
+    "seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
   },
   "dependencies": {
-    "manifest": "^4.11.8"
+    "manifest": "4.18.0-alpha.3"
   }
 }

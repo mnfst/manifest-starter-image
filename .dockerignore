@@ -1,5 +1,5 @@
 .vscode
 .git
+.manifest
 
 README.md
-manifest/backend.db

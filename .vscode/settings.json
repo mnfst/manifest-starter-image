@@ -1,6 +1,6 @@
 {
   "yaml.schemas": {
-    "https://schema.manifest.build/schema.json": "**/manifest/**/*.yml"
+    "https://schema.manifest.build/schema.json": "**/manifest.yml"
   },
   // Docker-style theme.
   "workbench.colorCustomizations": {
